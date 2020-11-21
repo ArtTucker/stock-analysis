@@ -20,7 +20,7 @@ Meanwhile in 2018:
 - most of the stocks preformed poorly, with only two having positive returns.
 
 While I'm sure "Steve and his parents" will be very happy to receive this data (even though it's two years old), what should be of interest to us is how well the VBA module preformed and why.
-[Pre-refactoring 2017 runtime](resources/pre-refactor2017_runtime.png)[Pre-refactoring 2018 runtime](resources/pre-refactor2018_runtime.png)
+![Pre-refactoring 2017 runtime](resources/pre-refactor2017_runtime.png)![Pre-refactoring 2018 runtime](resources/pre-refactor2018_runtime.png)
 As you can see from the above images, the 
 
 
