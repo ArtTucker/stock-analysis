@@ -41,8 +41,5 @@ Cells(4 + i, 3).Value = tickerEndPrices(i) / tickerStartPrices(i) - 1
 Prior to this our `tickerVolume`, `tickerStartPrice`, and `tickerEndPrice` *(note the singular instead of plural used with the array declarations)* were simple variables that would be overwritten with each new round of the for-loop, so therefore had to output its value while it still had it in memory. This meant that the module had to switch back-and-forth between the data and output worksheets repeatedly with `Worksheets("...").Activate` within the same for-loop that searched for the data. This is likely where most of the processing time was taken up. Though this change looked less compact from the outset, it was in-fact, enabling a better use of memory and processing resources.
 
 ## Summary:
-/Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
 
 Refactoring code is much more than a simple clean-up or densification of code. It is often a reworking of code to improve on efficiency and memory usage. It can often be a tricky and complex process, as you reassign new variables or arrays, to remember (or discover) how everything gets reassembled. One can liken it to disassembling a radio or a car before making improvements and attempting to put it back together again. And the end result may look more clunky or bulky at first glance. However, if done properly, it should result in a better solution to the problem than what you had before.
