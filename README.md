@@ -21,7 +21,8 @@ Meanwhile in 2018:
 
 While I'm sure "Steve and his parents" will be very happy to receive this data (even though it's two years old), what should be of interest to us is how well the VBA module preformed and why.
 ![Pre-refactoring 2017 runtime](resources/pre-refactor2017_runtime.png)![Pre-refactoring 2018 runtime](resources/pre-refactor2018_runtime.png)
-As you can see from the above images, the 
+As you can see from the above images, when we ran the post-lesson/pre-refactoring module on the 2017 and 2018 lists of stocks (with just over 3000 rows of data in each) the processes took almost 1 second to 3/4 of a second for each, respectively. This may not seem like a lot of time, but if we had a sheet with 50,000 rows, or more, this processing time would be significantly multiplied. In this time the subroutine ran through the list of ticker symbols and stock activity, checking it for price and volume data for each ticker in our listed array, before outputting it's findings, then running through the data again and doing the same for the next ticker in the array. But we can and did do better.
+![Post-refactoring 2017 runtime](resources/VBA_Challenge_2017.png)![Post-refactoring 2018 runtime](resources/VBA_Challenge_2018.png)
 
 
 
