@@ -13,6 +13,7 @@ The output of the end-of-lesson code and the refactored code are essentially the
 - the ticker with the highest trading volume was SunPower (SPWR);
 - the ticker with the best rate of return was Daqo New Energy (DQ);
 - most of the stocks performed well, with only two having negative returns.
+
 Meanwhile in 2018:
 - the ticker with the highest trading volume was Enphase (ENPH);
 - the ticker with the best rate of return was SunRun (RUN);
